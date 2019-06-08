@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=K2D');
+
+// Fonts Icons
+// @import 'node_modules/@mdi/font/scss/materialdesignicons.scss';
+
+// Variables
+@import 'variables';
+
+// Body
+$body-bg: #f8fafc;
+
+.hero-body {
+    padding: 1.5rem 1.5rem;
+}
+.hero.is-fullheight .hero-body {
+    align-items: flex-start;
+}
+#editor .ql-editor {
+    min-height: 300px;
+}
+.card-header-button {
+    margin: auto;
+    margin-right: 10px;
+}
+.modal-card-foot {
+    padding: 10px;
+}
+@media screen and (min-width: 769px) {
+    .modal-content,
+    .modal-card {
+        width: 1024px;
+        border-radius: 6px;
+        // overflow: hidden;
+    }
+}
+.hero-body {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.w-110 {
+    width: 110px;
+}
